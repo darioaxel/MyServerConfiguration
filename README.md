@@ -79,9 +79,9 @@ use=web, web=dyndns address is 1.2.3.4
 use=web, web=loopia address is 1.2.3.4
 ```
 To test your ddclient configuration with really verbose output, printing all possible configuration parameters and their values, you can use this command:
-
+```
 sudo ddclient -debug -verbose -noquiet
-
+```
 I won't print a sample output because it's too long, but somewhere near the bottom you should see a line like this:
 
 SUCCESS:  updating backup: good: IP address set to 1.2.3.4
@@ -125,4 +125,15 @@ Fill in this information:
 Then make the script executable:
 ```
 sudo chmod +x /etc/cron.daily/ddclient
+```
+## Install OpenSSH Server
+
+Within the terminal, run the following command as root to install the OpenSSH server package.
+```
+apt install openssh-server -y
+```
+
+To configure the server use 
+```
+sudo xed /etc/ssh/sshd_config
 ```
