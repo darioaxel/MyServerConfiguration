@@ -62,7 +62,7 @@ For this to work, you need a perl library that can use SSL. Install it with this
 ```
 sudo apt-get install libio-socket-ssl-perl
 ```
-### Testing your configuration
+### [Testing your configuration](http://www.netinstructions.com/how-to-setup-dynamic-dns-for-home-computer-or-server/)
 
 You can check if the pre-defined use values can detect your WAN IP by running this command:
 ```
