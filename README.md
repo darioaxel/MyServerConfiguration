@@ -126,6 +126,8 @@ Then make the script executable:
 ```
 sudo chmod +x /etc/cron.daily/ddclient
 ```
+## G-NAT
+Don't forget to ask your service provider to take you off the [G-NAT](https://en.wikipedia.org/wiki/Carrier-grade_NAT)
 ## Install OpenSSH Server
 
 Within the terminal, run the following command as root to install the OpenSSH server package.
